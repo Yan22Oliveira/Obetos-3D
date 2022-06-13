@@ -89,7 +89,10 @@ class _HomePageState extends State<HomePage> {
           ),
           Container(
             alignment: Alignment.bottomCenter,
-            padding: const EdgeInsets.all(16),
+            padding: const EdgeInsets.symmetric(
+              horizontal: 16,
+              vertical: 40,
+            ),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
