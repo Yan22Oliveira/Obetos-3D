@@ -23,15 +23,17 @@ class _ViewImagesObjectsState extends State<ViewImagesObjects> {
 
     return SizedBox(
       height: height,
-      child: Cube(
-        onSceneCreated: (Scene scene) {
-          scene.world.add(
-            Object(
-              fileName: widget.fileName,
-            ),
-          );
-          scene.camera.zoom = 5;
-        },
+      child: Center(
+        child: Cube(
+          onSceneCreated: (Scene scene) {
+            scene.world.add(
+              Object(
+                fileName: widget.fileName,
+              ),
+            );
+            scene.camera.zoom = 8;
+          },
+        ),
       ),
     );
   }

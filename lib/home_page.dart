@@ -21,12 +21,14 @@ class _HomePageState extends State<HomePage> {
     "assets/Astronaut/Astronaut.obj",
     "assets/earth/earth_ball.obj",
     "assets/material/model.obj",
+    "assets/ruby_rose/ruby_rose.obj",
   ];
 
   List<String> listName = [
     "Astronauta",
     "Globo Terra",
     "Carro",
+    "Ruby Rose",
   ];
 
   @override
